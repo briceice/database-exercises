@@ -1,8 +1,8 @@
-use brice;
+USE brice;
 
 SELECT DISTINCT last_name
 FROM employees
-ORDER BY last_name DESX
+ORDER BY last_name DESC
 LIMIT 10;
 
 SELECT emp_no
